@@ -27,13 +27,10 @@ export default function Navbar() {
                     <Link to="/contact">Contacto</Link>
                 </li>
             </ul>
-
-            {/* Carrito */}
             <div className="relative">
                 <button onClick={toggleCartMenu} className="text-[rgb(45,58,75)] hover:text-[rgb(255,225,21)]">
                     🛒 Carrito ({totalItems})
                 </button>
-                {/* Menú desplegable del carrito */}
                 {isCartOpen && (
                     <div className="absolute right-0 mt-2 bg-white shadow-md border p-4 w-64">
                         <h3 className="font-semibold mb-4">Productos en el carrito</h3>
