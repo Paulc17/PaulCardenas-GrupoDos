@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
 import { useCart } from '../Cart/CartContext'; // Importa el contexto del carrito
 import { useState } from 'react';
 
@@ -66,26 +65,3 @@ export default function Navbar() {
         </nav>
     );
 }
-
-=======
-export default function Navbar() {
-    return (
-        <nav className='mr-[30vw] mt-[6vh]'>
-            <ul className="flex">
-                <li className="mx-[50px] text-[17px] font-normal leading-[20px] uppercase text-[rgb(45,58,75)] transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
-                    <Link to="/">Home</Link>
-                </li>
-                <li className="mx-[50px] text-[17px] font-normal leading-[20px] uppercase text-[rgb(45,58,75)] transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
-                    <Link to="/products">Shop</Link>
-                </li>
-                <li className="mx-[50px] text-[17px] font-normal leading-[20px] uppercase text-[rgb(45,58,75)] transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
-                    <Link to="/about">About</Link>
-                </li>
-                <li className="mx-[50px] text-[17px] font-normal leading-[20px] uppercase text-[rgb(45,58,75)] transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
-                    <Link to="/contact">Contact</Link>
-                </li>
-            </ul>
-        </nav>
-    );
-}
->>>>>>> f2e66a6e26ecb3d47bd37fc0c3616b26605805b4
